@@ -15,11 +15,11 @@ body.is-presenting{overflow:hidden}body.is-presenting .demo-label,body.is-presen
 /* Macro 3 — editorial photography and premium refinement */
 .hero-art>img{width:72%;height:520px;object-fit:cover;object-position:center;transform:rotate(-4deg);border-radius:48% 48% 12% 12%;box-shadow:0 32px 75px #000b,0 0 0 12px #ffffff08;filter:saturate(1.1) contrast(1.06)}
 .hero-art:after{content:"";position:absolute;width:65%;height:75%;background:radial-gradient(ellipse,#f6b4222b,transparent 70%);z-index:-1;pointer-events:none}
-.cat-meat:before{background:linear-gradient(0deg,#15100add,#15100a22),url('assets/category-meat.webp') center/cover}
-.cat-frozen:before{background:linear-gradient(0deg,#081a1ddd,#081a1d22),url('assets/category-frozen.webp') center/cover}
-.cat-sauce:before{background:linear-gradient(0deg,#30130bdd,#30130b22),url('assets/category-sauces.webp') center/cover}
-.cat-drink:before{background:linear-gradient(0deg,#351900dd,#35190022),url('assets/category-drinks.webp') center/cover}
-.cat-bread:before{background:linear-gradient(0deg,#312619dd,#31261922),url('assets/category-grocery.webp') center/cover}
+.cat-meat:before{background:linear-gradient(0deg,#15100add,#15100a22),url('/assets/category-meat.webp') center/cover}
+.cat-frozen:before{background:linear-gradient(0deg,#081a1ddd,#081a1d22),url('/assets/category-frozen.webp') center/cover}
+.cat-sauce:before{background:linear-gradient(0deg,#30130bdd,#30130b22),url('/assets/category-sauces.webp') center/cover}
+.cat-drink:before{background:linear-gradient(0deg,#351900dd,#35190022),url('/assets/category-drinks.webp') center/cover}
+.cat-bread:before{background:linear-gradient(0deg,#312619dd,#31261922),url('/assets/category-grocery.webp') center/cover}
 .cat-art{opacity:.05;pointer-events:none}.cat-meat .cat-art{opacity:.05}
 .newera-epilogue{background:#0c1015;color:#f6f1e5;padding:95px 0 105px;border-top:5px solid var(--gold)}
 .newera-content{max-width:1020px}.newera-eyebrow{letter-spacing:.2em;font-size:11px;font-weight:800;color:var(--gold)}.newera-content h2{font-size:clamp(34px,5.8vw,70px);line-height:1.08;letter-spacing:-.06em;max-width:840px;margin:22px 0}.newera-content>p:not(.newera-eyebrow){font-size:17px;line-height:1.8;color:#b8c0c4;max-width:730px;margin-bottom:28px}.newera-content small{display:block;margin-top:34px;color:#88929a}
